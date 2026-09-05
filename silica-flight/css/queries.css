@@ -1,0 +1,364 @@
+/* =================================== */
+/* Approximately 1300px (Smaller desktop) */
+/* ======================================*/
+
+@media (max-width: 81em) {
+  .section-hero {
+    background-position: left;
+  }
+
+  .location-options {
+    grid-template-columns: repeat(2, 100%);
+  }
+}
+
+/* =================================== */
+/* Approximately 1100px (landscape tablets) */
+/* ======================================*/
+
+@media (max-width: 68em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .search-bars {
+    padding-block: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.2rem;
+    row-gap: 2rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+  }
+
+  .search-bars .input-box:has(.tab-span) {
+    grid-column: span 2;
+    text-align: start;
+    margin-block: 1rem 2rem;
+  }
+
+  .submit-btn {
+    padding: 1.8rem;
+    grid-column: span 2;
+  }
+
+  .icon,
+  h3,
+  .steps p {
+    text-align: center;
+  }
+
+  .icon {
+    margin-block-end: 5rem;
+  }
+
+  .footer-grid {
+    row-gap: 3rem;
+    column-gap: 3rem;
+    justify-items: center;
+  }
+}
+
+/* =================================== */
+/* Approximately 800px (Tablet) */
+/* ======================================*/
+
+@media (max-width: 81.25em) {
+  .steps {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .step-one,
+  .step-two,
+  .step-three {
+    margin: auto;
+    max-width: 100%;
+    width: 60%;
+  }
+
+  .icon {
+    margin-block: 3rem 7rem;
+  }
+
+  .location-options {
+    max-width: 65%;
+    grid-template-columns: 1fr;
+  }
+
+  .options img {
+    width: 50%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 1.8rem;
+  }
+
+  .option-text {
+    margin-inline-start: 1rem;
+  }
+
+  .steps p {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .footer-grid {
+    justify-content: center;
+    grid-template-columns: repeat(2, 20rem);
+  }
+}
+
+/* =================================== */
+/* Approximately 730px (Smaller tablet) */
+/* ======================================*/
+
+@media (max-width: 45em) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-hero {
+    background-image:
+      linear-gradient(rgba(0, 80, 160, 0.45), rgba(0, 80, 160, 0.45)),
+      url(../asset/images/mobile/hero-bg-image.png);
+    background-position-y: bottom;
+  }
+
+  .hero {
+    margin: auto;
+  }
+
+  .search-bars {
+    grid-template-columns: 1fr;
+  }
+
+  .input-box {
+    grid-column: span 2;
+  }
+
+  .search-bars .input-box:has(.tab-span) {
+    text-align: start;
+  }
+
+  .btn-setting {
+    margin: 2rem auto;
+  }
+
+  .location-options {
+    max-width: 60rem;
+    width: 100%;
+  }
+
+  .options {
+    width: 90%;
+    margin: auto;
+  }
+
+  .section-program {
+    padding: 6.4rem;
+  }
+
+  .program {
+    max-width: 100%;
+    background-image:
+      linear-gradient(rgba(0, 80, 160, 0.45), rgba(0, 80, 160, 0.45)),
+      url(../asset/images/mobile/founding-members.png);
+    background-size: cover;
+  }
+
+  .cta-form {
+    width: 100%;
+  }
+}
+
+/* =================================== */
+/* Approximately 550px ( Mobile) */
+/* ======================================*/
+
+@media (max-width: 34em) {
+  .section-hero {
+    padding-top: 5.8rem;
+  }
+
+  .search-bars {
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 3.8rem;
+  }
+
+  .section-destination {
+    padding: 6.4rem;
+  }
+
+  .step-one,
+  .step-two,
+  .step-three {
+    width: 80%;
+    padding-inline: 2rem;
+    text-align: start;
+  }
+
+  .icon,
+  h3,
+  .steps p {
+    text-align: start;
+  }
+
+  .steps p {
+    text-align: start;
+    margin: 2rem 0;
+  }
+
+  .options {
+    width: 100%;
+  }
+
+  .section-program {
+    padding: 3rem;
+  }
+
+  .insert-email {
+    flex-direction: column;
+    background-color: inherit;
+  }
+
+  .insert-email #mail {
+    margin: 1.6rem auto;
+    width: 100%;
+    padding: 1.6rem;
+    background-color: var(--input);
+  }
+
+  .btn-program {
+    width: 100%;
+  }
+
+  .section-cta {
+    padding-inline: 3rem;
+  }
+
+  .cta-form {
+    margin-inline-end: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    width: 100%;
+  }
+}
+
+/* =================================== */
+/* Approximately 450px ( Mobile) */
+/* ======================================*/
+
+@media (max-width: 28em) {
+  html {
+    font-size: 45%;
+  }
+
+  .step-one,
+  .step-two,
+  .step-three {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .section-destination {
+    padding-inline: 1.2rem;
+  }
+
+  .description {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .destination {
+    width: 100%;
+  }
+
+  .location {
+    width: 100%;
+  }
+
+  .options {
+    width: 100%;
+  }
+
+  .options img {
+    width: 50%;
+  }
+
+  .cta-form {
+    padding-inline: 1rem;
+  }
+
+  .section-program {
+    padding: 2rem;
+  }
+
+  .program {
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    overflow: hidden;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .program h2 {
+    margin-top: 3rem;
+    font-size: 3.8rem;
+    text-align: start;
+  }
+
+  .program p {
+    margin: 0 auto 3rem 0;
+  }
+
+  .program p:last-child {
+    margin: 0 auto 3rem auto;
+  }
+
+  #mail,
+  .btn-program {
+    width: 100%;
+    max-width: 80%;
+  }
+
+  .btn-program {
+    margin: auto;
+  }
+
+  .tag {
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .abbre {
+    display: block;
+  }
+
+  .full-name {
+    display: none;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    justify-items: start;
+    margin-left: 2rem;
+  }
+}
