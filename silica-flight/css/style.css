@@ -127,6 +127,7 @@ html {
   padding: 5rem 2rem;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
@@ -137,6 +138,10 @@ html {
     linear-gradient(rgba(0, 80, 160, 0.45), rgba(0, 80, 160, 0.45)),
     url(../asset/images/desktop/hero-bg-image.png);
   margin-block-end: 10rem;
+}
+
+.header {
+  display: none;
 }
 
 .hero {
