@@ -179,6 +179,33 @@
 /* ======================================*/
 
 @media (max-width: 34em) {
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem 15rem 1.5rem;
+  }
+
+  .header p {
+    font-size: 2.4rem;
+    font-family: "Switzer", sans-serif;
+    color: var(--text);
+  }
+
+  .header button {
+    background-color: var(--text);
+    border: none;
+    font-family: "Switzer", sans-serif;
+    padding: 2rem 3rem;
+    border-radius: var(--radius);
+    color: var(--placeholder);
+    -webkit-border-radius: var(--radius);
+    -moz-border-radius: var(--radius);
+    -ms-border-radius: var(--radius);
+    -o-border-radius: var(--radius);
+  }
+
   .section-hero {
     padding-top: 5.8rem;
   }
@@ -313,24 +340,25 @@
   .program {
     justify-content: center;
     align-items: center;
-    padding: 1.2rem;
+    padding: 2rem;
     overflow: hidden;
     justify-content: center;
     margin-bottom: 5rem;
   }
 
   .program h2 {
-    margin-top: 3rem;
-    font-size: 3.8rem;
+    font-size: 3.5rem;
+    margin: 5rem auto 0 1.2rem;
     text-align: start;
   }
 
   .program p {
-    margin: 0 auto 3rem 0;
+    text-align: start;
+    margin: 0 auto 5rem 1.2rem;
   }
 
-  .program p:last-child {
-    margin: 0 auto 3rem auto;
+  #last-child {
+    margin: 0 auto 8rem auto;
   }
 
   #mail,
