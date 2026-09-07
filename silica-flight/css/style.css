@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Cintarini";
-  src: url("Cintarini.ttf") format("truetype");
+  src: url("../Cintarini.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
